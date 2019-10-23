@@ -11,7 +11,7 @@ public class Palindrome {
 		
 		
 		System.out.println(StringMethods.isPalindrome(pal1));
-		System.out.println(StringMethods.isPalindrome2(pal1));
+		System.out.println(StringMethods.isPalindrome2(pal2));
 		
 	}
 

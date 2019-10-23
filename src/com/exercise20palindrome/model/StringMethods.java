@@ -24,7 +24,7 @@ public class StringMethods {
 		return isPal;
 	}
 	
-	public static boolean isPalindrome2(String phrase)
+	public static String isPalindrome2(String phrase)
 	{
 		boolean isPal = true;
 		String cadClean = phrase.replace(" ", "");
@@ -58,7 +58,7 @@ public class StringMethods {
 		}
 		
 		
-		return isPal;
+		return isPal ? "Palindrome" : "Not palindrome";
 	}
 	
 	
